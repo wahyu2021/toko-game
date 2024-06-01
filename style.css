@@ -1,0 +1,52 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #363062;
+}
+
+.navbar{
+    background-color: #4c67aa;
+}
+
+.navbar .container-fluid .navbar-collapse ul li a {
+    color: #f1f1f1;
+}
+
+.img-brand{
+    transition: all .3s ease-in-out;
+}
+
+.img-brand:hover{
+    transform: rotate(-45deg);
+    scale: 1.1;
+}
+
+.nav-item{
+    transition: all .3s ease-in-out;
+    border-radius: 12px;
+    margin: 0 4px;
+}
+
+.nav-item:hover{
+    background-color:#393986;
+}
+
+.input-nav{
+    border: none;
+}
+
+.input-nav:focus{
+    outline: none;
+}
+
+.logo-search{
+    border: none;
+}
+
+.logo-search:active{
+    scale: 0.9;
+}
